@@ -2,3 +2,34 @@ body{
     font-family: 'Open Sans', sans-serif;
     
 }
+
+.banner-container{
+    background-color: #CACACA;
+}
+
+.banner-column{
+    background-color: #8A8A8A;
+}
+
+.navbar-container{
+    background-color: #1E1E1E;
+}
+
+.education-container{
+    background-color: #eeeeee;
+}
+
+.bg-redtype{
+    background-color: #FF907D;
+}
+
+.redtype-color{
+    color: #FF907D;
+}
+
+.circle{
+    background-color: #FF907D;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
