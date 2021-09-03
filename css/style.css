@@ -13,6 +13,9 @@ body{
 
 .navbar-container{
     background-color: #1E1E1E;
+    position: sticky;
+    top: 0;
+    z-index: 2;
 }
 
 .education-container{
@@ -23,11 +26,15 @@ body{
     background-color: #FF907D;
 }
 
+.bg-redtype:hover{
+    color: black!important;
+}
+
 .redtype-color{
     color: #FF907D;
 }
 
-.circle{
+.circle-edu{
     background-color: #FF907D;
     height: 150px;
     width: 150px;
@@ -35,4 +42,31 @@ body{
 }
 .project-container{
     background-color: #20A8E4;
+}
+
+.form-container{
+    background-color: #3E4453;
+}
+
+.inner-form{
+    background-color: #576077;
+}
+
+.footer{
+    background-color: #20A8E4;
+}
+
+.circle{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: #ffff;
+    font-size: 40px;
+    text-align: center;
+    color: #20A8E4;
+}
+
+.circle:hover{
+  background-color:#3E4453 ;
 }
